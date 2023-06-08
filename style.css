@@ -1,0 +1,139 @@
+body{
+    background-image: url(img/19362653.jpg);
+    background-size: cover;
+    height: 100%;
+    background-color:#7898a8;
+}
+.container{
+    margin-left: 11%;
+    position:absolute;
+    top:30%;
+
+}
+#input{
+   background-color:black;
+   height:35vh;
+   width: 25vw;
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 5px 7px 10px 5px black;
+
+}
+#result{
+    background-color:black;
+    position: absolute;
+    left:66%;
+    top:34%;
+    color:#fff;
+    width:30vw;
+    border-radius: 30px;
+    box-shadow: 5px 7px 10px black;
+    
+
+}
+.author {
+    position: fixed;
+    bottom:-2%;
+    left:-2%;
+    width: 100%;
+    padding: 10px;
+    text-align:right;
+    
+  }
+#pincode{
+    background-color:beige ;
+    font-size: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 7px 10px black;
+    margin-top: 10px;
+    font-style:oblique;
+    color:#3235e6;
+}
+#submit{
+    padding:8px 32px;
+    position:absolute;
+    left:10%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    box-shadow: 5px 7px 10px black;
+}
+a{
+    text-decoration: none;
+}
+#PostOffice{
+    font-weight: 500;
+}
+
+#title{
+    font-weight: 800;
+    font-size: 3rem;
+    color:rgb(87, 48, 177);
+    position: fixed;
+    left:38%;
+    top:1.3%;
+    font-family:Damion;
+    border-radius: 20px;
+    padding:8px 42px;
+    box-shadow: 6px 8px 7px 6px grey;
+}
+#data{
+    text-decoration: underline;
+    text-decoration-color: rgb(56, 70, 174);
+}
+img{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+@media (max-width:768px){
+    #title{
+        font-weight: 800;
+        color:rgb(87, 48, 177);
+        font-size: 2.4rem;
+        position: fixed;
+        top:5%;
+        left:25%;
+        font-family:Damion;
+        border-radius: 20px;
+        padding:10px 32px;
+        background-color: aliceblue;
+        box-shadow: 6px 8px 7px 6px grey;
+      }
+    body{
+        background-image: url(img/bull.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+       }
+    #result{
+            background-color:black;
+            color:#fff;
+            width:70vw;
+            position:relative;
+            left:10%;
+            margin-top: 10%;
+            border-radius: 30px;
+            box-shadow: 5px 7px 10px black;
+            
+            }
+    #input{
+       background-color:transparent;
+       width:fit-content;
+       margin-right: -30%;
+       height:35vh;
+       border-radius: 30px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       box-shadow: 5px 7px 10px 5px black;
+       }
+    #submit{
+                padding:8px 32px;
+                position:absolute;
+                left:30%;
+                font-size: 1.3rem;
+                font-weight: 600;
+                box-shadow: 5px 7px 10px black;
+            }
+}
+    
