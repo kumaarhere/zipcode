@@ -113,8 +113,7 @@ a{
              }
     #input{
        background-color:transparent;
-       width:fit-content;
-       margin-right: -28%;
+       margin-left: -5%;
        height:35vh;
        border-radius: 30px;
        display: flex;
@@ -132,15 +131,17 @@ a{
         font-size: 10px;
         
       }
-    #submit{
-                padding:8px 32px;
-                position:absolute;
-                left:30%;
-                font-size: 1.3rem;
-                font-weight: 600;
-                box-shadow: 5px 7px 10px black;
-                
-            }
+      #submit{
+        padding:8px 32px;
+        position:absolute;
+        left:30%;
+        font-size: 1.3rem;
+        font-weight: 600;
+        box-shadow: 5px 7px 10px black;
+        }
+        #pincode{
+            width:90vw;
+        }
 }
 @media only screen and (max-width:980px){
     body{
