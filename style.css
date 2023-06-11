@@ -24,7 +24,7 @@ body{
 #result{
     background-color:black;
     position:relative;
-    left:24%;
+    left:26%;
     top:6rem;
     color:#fff;
     width:30vw;
@@ -92,7 +92,7 @@ a{
         font-family:Damion;
         color:black;
         margin-top: 4%;
-        background-color:transparent;
+        background-color:blanchedalmond;
         box-shadow: 5px 7px 10px black;
       }
     body{
