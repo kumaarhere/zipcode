@@ -93,9 +93,11 @@ a{
         font-family:Damion;
         color:black;
         margin-top: 4%;
-        background-color:blanchedalmond;
         box-shadow: 5px 7px 10px black;
       }
+    h1#title {
+    background: repeating-linear-gradient(40deg, white, transparent 2px);
+        }
     body{
         background-image: url(img/ai.jpg);
         background-size: cover;
@@ -160,9 +162,11 @@ a{
         font-family:Damion;
         color:black;
         margin-top: 4%;
-        background-color: blanchedalmond;
         box-shadow: 5px 7px 10px black;
       }
+     h1#title {
+    background: repeating-linear-gradient(40deg, white, transparent 2px);
+        }
     #input{
             background-color:transparent;
             width:fit-content;
